@@ -93,7 +93,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST"){
                       <td>'.$fname.'</td>
                     <td>
                       <button class="btn btn-danger btn">
-                      <a href="delu.php?deleteuser='.$customer.'" class="text-light">Delete All Orders of This User</a>
+                      <a href="delu.php?deleteuser='.$oid.'" class="text-light">Delete This Order </a>
                     </button>
                   </td>
                       </tr>';
